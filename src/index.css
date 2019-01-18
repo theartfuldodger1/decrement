@@ -5,10 +5,37 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: gqrayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.displayCenter {
+  margin: auto;
+  width: 50%;
+}
+.output {
+  display: inline-block;
+  padding: 2px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: transparent;
+}
+.button {
+  display: inline-block;
+  padding: 7px 7px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightgray;
+  box-shadow: 14 9px #222;
+}
+
